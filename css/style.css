@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.container .background {
+  position: absolute;
+  width: 720px;
+  height: 780px;
+  left: 0px;
+  top: 0px;
+  background-color: #121214;
+  z-index: 1;
+}
+.container .background-img img {
+  position: absolute;
+  width: 1175px;
+  height: 900px;
+  left: 376px;
+  top: 0px;
+  z-index: 0;
+}
+.container .logo img {
+  position: absolute;
+  width: 389px;
+  height: 94px;
+  left: 30px;
+  top: 50px;
+  z-index: 2;
+}
+
+.content {
+  position: absolute;
+  width: 647px;
+  height: 102px;
+  left: 36px;
+  top: 236px;
+  z-index: 2;
+  margin-bottom: 50px;
+}
+.content h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  font-style: normal;
+  color: #08C05E;
+  margin-bottom: 9px;
+}
+.content p:first-of-type {
+  font-family: "League Spartan", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  font-style: normal;
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+.content p:last-of-type {
+  font-family: "League Spartan", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  font-style: normal;
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+
+.form {
+  position: absolute;
+  width: 798px;
+  height: 84px;
+  left: 36px;
+  top: 388px;
+  z-index: 2;
+}
+
+form label {
+  font-family: "League Spartan", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  font-style: normal;
+  color: #a8a8a8;
+}
+form .interaction {
+  width: 798px;
+  height: 48px;
+  margin-top: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+form .interaction input {
+  width: 798px;
+  height: 48px;
+  border: none;
+  border-left: 5px solid #08C05E;
+  filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+}
+form .interaction ::placeholder {
+  padding-left: 15px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  font-style: normal;
+  color: #6a6a6a;
+}
+form .interaction button {
+  width: 48px;
+  height: 48px;
+  background-color: #8257e5;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form .interaction button:hover {
+  background-color: #5a20e2;
+}
+
+.about {
+  position: absolute;
+  width: 196px;
+  height: 24px;
+  left: 36px;
+  top: 522px;
+  z-index: 2;
+}
+.about a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.about p {
+  font-family: "League Spartan", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  font-style: normal;
+  color: #8257e5;
+}
+.about p:hover {
+  font-size: 16px;
+}
+.about img {
+  width: 19px;
+  height: 19px;
+}
+
+/*# sourceMappingURL=style.css.map */

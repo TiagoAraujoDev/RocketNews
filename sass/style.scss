@@ -1,0 +1,140 @@
+@import "./variables/colors.scss";
+@import "./variables/fonts.scss";
+
+@mixin elementPosition($position, $width, $height, $left, $top) {
+    position: $position;
+    width: $width;
+    height: $height;
+    left: $left;
+    top: $top;
+}
+@mixin textStyle($font-family, $font-size, $font-weight, $line-height, $font-style, $color) {
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+    font-style: $font-style;
+    color: $color;    
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-height: 100vh;
+    overflow: hidden;
+ }
+
+.container {
+    .background {
+        @include elementPosition(absolute, 720px, 780px, 0px, 0px);
+        background-color: #121214;
+        z-index: 1;
+    }
+
+    .background-img img {
+        @include elementPosition(absolute, 1175px, 900px, 376px, 0px);
+        z-index: 0;   
+    }
+
+    .logo img {
+        @include elementPosition(absolute, 389px, 94px, 30px, 50px);
+        z-index: 2;
+    }
+}
+
+.content {
+    @include elementPosition(absolute, 647px, 102px, 36px, 236px);
+    z-index: 2;
+    margin-bottom: 50px;
+
+    h1 {
+        @include textStyle($font-work, 24px, 700, 28px, normal, $green);
+        margin-bottom: 9px;
+    }
+
+    p:first-of-type {
+        @include textStyle( $font-spartan, 14px, 700, 16px, normal, $white);
+        margin-bottom: 9px;
+    }
+
+    p:last-of-type {
+        @include textStyle( $font-spartan, 14px, 400, 16px, normal, $white);
+        margin-bottom: 9px;
+    }
+}
+
+.form {
+    @include elementPosition(absolute, 798px, 84px, 36px, 388px);
+    z-index: 2;
+}
+
+form {
+
+    label {
+        @include textStyle( $font-spartan, 14px, 700, 19px, normal, #a8a8a8);
+    }
+    .interaction {
+        width: 798px;
+        height: 48px;
+        margin-top: 17px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+
+        input {
+            width: 798px;
+            height: 48px;
+            border: none;
+            border-left: 5px solid $green;
+            filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+        }
+
+        ::placeholder {
+            padding-left: 15px;
+            @include textStyle( $font-work, 12px, 400, 14px, normal, #6a6a6a);
+        }
+
+        button {
+            width: 48px;
+            height: 48px;
+            background-color: $purple;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button:hover {
+            background-color: $purple-hover;    
+        }
+    }
+}
+
+.about {
+    @include elementPosition(absolute, 196px, 24px, 36px, 522px);
+    z-index: 2;
+
+    a {
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+
+    p {
+        @include textStyle( $font-spartan, 14px, 700, 20px, normal, $purple);
+    }
+
+    p:hover {
+        font-size: 16px;
+    }
+
+    img {
+        width: 19px;
+        height: 19px;
+    }
+}
