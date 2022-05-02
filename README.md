@@ -32,7 +32,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Sass](https://sass-lang.com/)
 
 <h3 id="autor">Autor</h3>
----
+
 
 <a href="https://www.linkedin.com/in/tiago-muniz-de-araujo-2b5b8a89/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/102497603?s=400&u=36ca4d7e208862291ff6e3cdbdfb76d5a4d2b0fc&v=4" width="100px;" alt=""/>
