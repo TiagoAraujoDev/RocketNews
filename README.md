@@ -20,7 +20,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 <h3 id="objetivo">🎯 Objetivos</h3>
 
 - Adiquirir proficiência nas tecnologias praticadas.
-- Praticar o uso de Sass com uso de variáveis, mixin, imports e organização em várias paginas para melhor visualização do código para futura manutenção
+- Praticar o uso de Sass com uso de variáveis, mixin, imports e organização em várias paginas para melhor visualização do código para futura manutenção.
 - Uso de ferramentas importantes no CSS como flexbox e form.
 
 <h3 id="tecnologias">🛠 Tecnologias</h3>
@@ -40,7 +40,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Tiago Araujo</b></sub></a> <a href="https://app.rocketseat.com.br/me/tiago-muniz-de-araujo-01020" title="Rocketseat">🚀</a>
 
 
-Feito com ❤️ por Tiago Araujo 👋🏽 Entre em contato!
+Feito por Tiago Araujo 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Tiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tiago-muniz-de-araujo-2b5b8a89/)](https://www.linkedin.com/in/tiago-muniz-de-araujo-2b5b8a89/) 
 [![Gmail Badge](https://img.shields.io/badge/-tiagomuniz130@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:tiagomuniz130@gmail.com)](mailto:tiagomuniz130@gmail.com)
